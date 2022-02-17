@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://ebytr-server.herokuapp.com/'
+  baseURL: 'https://ebytr-server.herokuapp.com/'
 });
 
 export default api; 
